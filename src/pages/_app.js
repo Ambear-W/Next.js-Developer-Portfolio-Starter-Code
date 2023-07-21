@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 import {Montserrat} from "next/font/google" //declare font
 import Head from "next/head";
 import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 
 //setting up font
 const montserrat = Montserrat({
@@ -19,6 +20,7 @@ export default function App({ Component, pageProps }) {
     <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>
       <NavBar />
       <Component {...pageProps} />
+      <Footer  />
     </main>
   </>
  )
