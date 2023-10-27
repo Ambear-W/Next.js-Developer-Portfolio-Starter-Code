@@ -39,7 +39,7 @@ const projects = () => {
                         img={project2}
                         />
                     </div>
-                    <div className='col-span-6'>
+                    <div className='col-span-6 cu'>
                         <Project
                         title="React Portfolio Website"
                         link="/"
