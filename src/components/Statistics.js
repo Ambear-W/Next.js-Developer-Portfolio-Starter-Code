@@ -31,7 +31,7 @@ const Statistics = ({number, title}) => {
       <span className='inline-block text-7xl font-bold'>
         <AnimatedNumbers value={number} /> +
       </span>
-      <h2 className='text-xl font-medium capitalize text-dark/75'>
+      <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light'>
         {title}
       </h2>
     </div>

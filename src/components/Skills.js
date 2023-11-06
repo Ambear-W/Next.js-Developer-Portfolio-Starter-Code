@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <>
         <h2 className='font-bold text-8xl mt-64 w-full text-center'>Skills</h2>
-        <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight'>
+        <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark'>
             <Skill name='Web' x='0' y='0' />
             <Skill name='HTML' x='-25vw' y='2vw' />
             <Skill name='CSS' x='-5vw' y='-10vw' />
