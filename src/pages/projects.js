@@ -30,7 +30,7 @@ const projects = () => {
                         img={project1}                        
                         />
                     </div>
-                    <div className='col-span-6'>
+                    <div className='col-span-6 sm:col-span-12'>
                         <Project
                         title="React Portfolio Website"
                         link="/"
@@ -39,7 +39,7 @@ const projects = () => {
                         img={project2}
                         />
                     </div>
-                    <div className='col-span-6 cu'>
+                    <div className='col-span-6 sm:col-span-12'>
                         <Project
                         title="React Portfolio Website"
                         link="/"
@@ -60,7 +60,7 @@ const projects = () => {
                         img={project1}                        
                         />
                     </div>
-                    <div className='col-span-6'>
+                    <div className='col-span-6 sm:col-span-12'>
                         <Project
                         title="React Portfolio Website"
                         link="/"
@@ -69,7 +69,7 @@ const projects = () => {
                         img={project2}
                         />
                     </div>
-                    <div className='col-span-6'>
+                    <div className='col-span-6 sm:col-span-12'>
                         <Project
                         title="React Portfolio Website"
                         link="/"
